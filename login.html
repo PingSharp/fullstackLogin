@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <form action="http://localhost:3001/signin" method="POST">
+            email:<br>
+            <input type="email" name="email" value="abc@gmx.de"><br>
+            <input type="password" name="password" value="123456">
+            <br>
+            <input type="submit" value="signIn" id="submitform">
+          </form>
+    </body>
+    <script>
+            // $(document).ready(function(){
+            //     $("#submitform").click(function(e)
+            //     {
+            //         let formData = $('form').serializeArray().reduce((obj, field) => {
+            //         obj[field.name] = field.value;
+            //              return obj;
+            //         }, {});
+            //          var MyFormdatas = JSON.stringify(FormData,null,'');
+            //          console.log(MyFormdatas);
+            //         $.ajax({
+            //             url : "http://localhost:3001/putData",
+            //             type: "POST",
+            //             data : MyFormdatas   
+        
+            //         });
+            //         e.preventDefault(); //STOP default action
+        
+            //     });
+            // });
+            </script>
+</html>
